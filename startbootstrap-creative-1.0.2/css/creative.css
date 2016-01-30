@@ -14,9 +14,20 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+#logo {
+    height:5em;
+    margin-bottom: 1em;
+}
+
+span {
+
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #f26d7d;
     border-width: 3px;
 }
 
@@ -178,7 +189,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -387,7 +398,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #f26d7d;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -401,7 +412,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #f26d7d;
 }
 
 .btn-primary:active,
@@ -429,11 +440,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
     border-color: #f05f40;
-    background-color: #f05f40;
+    background-color: #f26d7d;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #f26d7d;
     background-color: #fff;
 }
 
