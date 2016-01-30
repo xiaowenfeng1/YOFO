@@ -1,0 +1,53 @@
+.body {
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.results-nav {
+	height: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;	
+}
+
+.text-center {
+	text-align: center;
+}
+
+nav {
+	background-color: #8b9cf6;
+	font-family: 'Helvetica';
+}
+
+.yofo-title {
+	font-size: 300%;
+	float: left;
+	color: white;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+}
+
+.yofo-header-container {
+	vertical-align: middle;
+}
+
+.add-border {
+	outline: 2px solid white;
+}
+
+.results-highlight {
+	font-size: 150%;
+	color: white;
+}
