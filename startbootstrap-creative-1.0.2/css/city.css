@@ -1,0 +1,74 @@
+#mainNav {
+    background-image: url(../img/SF.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150px;
+
+}
+
+.logo {
+    height: 1.5em;
+    float: left;
+}
+
+.yofo-title {
+    font-size: 150%;
+    float: left;
+    color: white;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 300%;
+}
+
+#price {
+    float: right;
+    font-size: 1.5em;
+    color: #FFF;
+    margin-top: 1em;
+
+}
+#round-trip {
+    color: #4863f1;
+}
+
+.btn-purple {
+    color: #8b9cf6;
+    background-color: #fff;
+
+    border-width: 3px;
+    border-color: #8b9cf6;;
+
+}
+.airline {
+    height: 2em;
+}
+
+.city-info {
+    font-size: 1.5em;
+}
+
+.oneway {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.hr {
+    max-width: 100%;
+    border-color: #4863f1;
+    border-width: 1px;
+}
+
+.row {
+    color: #8b9cf6;
+}
+.time{
+    font-size: 0.9em;
+    color: #f26d7d;
+}
+#book {
+    font-size: 3em;
+    float: right;
+}

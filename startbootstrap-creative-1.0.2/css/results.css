@@ -52,6 +52,7 @@ nav {
 	color: white;
 }
 
+
 .btn.btn-default.results-highlight.text-center {
 	background-color: transparent;
 	border: 2px solid #FFF;
@@ -78,8 +79,10 @@ input::-webkit-input-placeholder {
 color: #FFF !important;
 }
  
-input:-moz-placeholder { /* Firefox 18- */
-color: #FFF
+input:-moz-placeholder {
+	/* Firefox 18- */
+	color: #FFF;
+}
  
 input::-moz-placeholder {  /* Firefox 19+ */
 color: #FFF !important;  
@@ -97,6 +100,7 @@ color: #FFF !important;
 
 .container.col-sm-2.add-border.text-center {
 	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+	-moz-column-gap: 40px; /* Firefox */
+	column-gap: 40px;
 }
+
