@@ -16,7 +16,7 @@
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -43,7 +43,7 @@
                 <div class="container yofo-header-container">
                     <div class="row">
                         <div class="container col-sm-12">
-                            <a class="navbar-brand page-scroll yofo-title" href="#page-top">
+                            <a class="navbar-brand page-scroll yofo-title" href="index.html">
                             <img class="logo" src="img/plane2WHITE.png" style="transform:translate(0,-30%);"/>Y O F O</a>      
                         </div>
                     </div>                    
@@ -53,24 +53,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="container col-sm-2 results-highlight text-center">DEPART</div>
-                        <div class="container col-sm-2 results-highlight text-center">ARRIVE</div>
-                        <div class="container col-sm-2"></div>
-                        <div class="container col-sm-2 results-highlight text-center">MIN $</div>
+                        <div class="container col-sm-2 results-highlight text-center" style="margin-left: 20px">ARRIVE</div>
+                        <div class="container col-sm-1"></div>
+                        <div class="container col-sm-2 results-highlight text-center" style="margin-right: 20px;">MIN $</div>
                         <div class="container col-sm-2 results-highlight text-center">MAX $</div>
                         <div class="container col-sm-2"></div>
                     </div>
                     <div class="row">
-                        <div class="container col-sm-2 add-border text-center">
+                        <div class="container col-sm-2 add-border text-center" style="margin-right: 20px;" >
                             <input type="text" name="departure" placeholder="DEPART">
                         </div>
                         <div class="container col-sm-2 add-border text-center">
-                            <input type="text" name="departure" placeholder="ARRIVE">
+                            <input type="text" name="departure" placeholder="ARRIVE" style="margin-left:0px">
                         </div>
-                        <div class="container col-sm-2"></div>
-                        <div class="container col-sm-2 add-border text-center">
+                        <div class="container col-sm-1"></div>
+                        <div class="container col-sm-2 add-border text-center" style="margin-right: 20px;">
                             <input type="text" name="departure" placeholder="${{minPrice}}">
                         </div>
-                        <div class="container col-sm-2 add-border text-center">
+                        <div class="container col-sm-2 add-border text-center" style="margin-left: 0px">
                             <input type="text" name="departure" placeholder="${{maxPrice}}">
                         </div>
                         <div id="refine-button" class="container col-sm-2">
@@ -82,16 +82,43 @@
         </div>
     </nav>
 
-    <header>
-       <div class="header-content">
-            <div class="header-content-inner">
-                <!-- add angular expression here -->
-                <h1>{{numResults}} results found</h1>
-                <hr>
-                <p>Here is where you can go...</p>
+    <center>
+        <div class="row">        
+            <div class="container box">
+                <div class="container main-results-header">
+                    <center>
+                        <h1><strong>{{numResults}} RESULTS FOUND</strong></h1>
+                        <hr>
+                        <h4>Here is where you can go...</h4>
+                        <br>
+                    </center>      
+                    <center>
+                        <div class="row col-sm-12">                        
+                            <div class="row">
+                                <div class="container col-sm-1 arrow-box">
+                                    <img class="back-btn" src="img/backbpurp.png">
+                                </div>
+                                <center>
+                                <div class="container col-sm-10">
+                                    <div class="container search-result-item col-sm-4" ng-repeat="item in results">     
+                                        <a ng-if="item.pageURL == 'city.html'" href="city.html">
+                                            <img class="location-image" src="img/{{item.imgURL}}" width="{{imgWidth}}" height="{{imgHeight}}"/>
+                                        </a>                
+                                        <img ng-if="item.pageURL != 'city.html'" class="location-image" src="img/{{item.imgURL}}" width="{{imgWidth}}" height="{{imgHeight}}"/>                                             
+                                        <p class="location">{{item.location | uppercase}}</p>
+                                        <p class="location-price"><strong>${{item.minPrice}} - {{item.maxPrice}}</strong></p>
+                                    </div>
+                                </div>                                
+                                <div class="container col-sm-1 arrow-box">
+                                    <img class="back-btn rotated-arrow" src="img/backbpurp.png">
+                                </div>
+                            </div>                        
+                        </div>  
+                    </center>
+                </div>
             </div>
-        </div> 
-    </header>
+        </div>           
+    </center>
 
     
 
