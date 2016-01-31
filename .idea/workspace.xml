@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19758d1b-2bcc-449e-a7c7-e8de21ee4312" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative-setprice.css" afterPath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative-setprice.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/index.html" afterPath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/set-price.html" afterPath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/set-price.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css" afterPath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css" afterPath="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="YOFO.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="city.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/city.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-71.25">
-              <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="creative.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.222222">
-              <caret line="344" column="2" selection-start-line="344" selection-start-column="1" selection-end-line="344" selection-end-column="2" />
+            <state vertical-scroll-proportion="-25.555555">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="city.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.444443">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.47930574">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative-setprice.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creative-setprice.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative-setprice.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17396908">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
@@ -125,13 +125,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/city.html" />
-        <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css" />
-        <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css" />
         <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/city.html" />
         <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/results.css" />
         <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/index.html" />
         <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/set-price.html" />
         <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative-setprice.css" />
+        <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css" />
+        <option value="$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css" />
       </list>
     </option>
   </component>
@@ -143,8 +143,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="23" />
+    <option name="x" value="202" />
+    <option name="y" value="33" />
     <option name="width" value="1145" />
     <option name="height" value="873" />
   </component>
@@ -294,7 +294,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="23" width="1145" height="873" extended-state="0" />
+    <frame x="202" y="33" width="1145" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -345,22 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.222222">
-          <caret line="344" column="2" selection-start-line="344" selection-start-column="1" selection-end-line="344" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.444443">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/results.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-46.666668">
@@ -373,14 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.875">
           <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/city.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-71.25">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -406,8 +382,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative-setprice.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17396908">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/creative.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.555555">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startbootstrap-creative-1.0.2/css/city.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47930574">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>

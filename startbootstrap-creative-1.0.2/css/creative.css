@@ -44,7 +44,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #f26d7d;
+    text-decoration: none;
 }
 
 h1,
