@@ -4,7 +4,7 @@
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    /*background-image: url(../img/header.jpg);*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -44,10 +44,59 @@ nav {
 }
 
 .add-border {
-	outline: 2px solid white;
+	outline: 3px solid white;
 }
 
 .results-highlight {
 	font-size: 150%;
 	color: white;
+}
+
+.btn.btn-default.results-highlight.text-center {
+	background-color: transparent;
+	border: 2px solid #FFF;
+	border-radius: 30px;
+	font-weight: normal;
+	color: #FFF;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+input {
+	color: #FFF;
+}
+
+input[type="text"] {
+	text-align: center;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+color: #FFF !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #FFF
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #FFF !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #FFF !important;  
+}
+
+.container.col-sm-2.results-highlight.text-center {
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.container.col-sm-2.add-border.text-center {
+	-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
 }

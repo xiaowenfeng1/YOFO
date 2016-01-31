@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="container col-sm-12">
                             <a class="navbar-brand page-scroll yofo-title" href="#page-top">
-                            <img class="logo" src="img/plane2WHITE.png"/>Y O F O</a>      
+                            <img class="logo" src="img/plane2WHITE.png" style="transform:translate(0,-30%);"/>Y O F O</a>      
                         </div>
                     </div>                    
                 </div>
@@ -52,21 +52,29 @@
                 <br>
                 <div class="container">
                     <div class="row">
-                        <div class="container col-sm-2 results-highlight text-center">ARRIVE</div>
                         <div class="container col-sm-2 results-highlight text-center">DEPART</div>
+                        <div class="container col-sm-2 results-highlight text-center">ARRIVE</div>
                         <div class="container col-sm-2"></div>
                         <div class="container col-sm-2 results-highlight text-center">MIN $</div>
                         <div class="container col-sm-2 results-highlight text-center">MAX $</div>
                         <div class="container col-sm-2"></div>
                     </div>
                     <div class="row">
-                        <div class="container col-sm-2 add-border text-center">ARRIVE</div>
-                        <div class="container col-sm-2 add-border text-center">DEPART</div>
+                        <div class="container col-sm-2 add-border text-center">
+                            <input type="text" name="departure" placeholder="DEPART">
+                        </div>
+                        <div class="container col-sm-2 add-border text-center">
+                            <input type="text" name="departure" placeholder="ARRIVE">
+                        </div>
                         <div class="container col-sm-2"></div>
-                        <div class="container col-sm-2 add-border text-center">${{minPrice}}</div>
-                        <div class="container col-sm-2 add-border">${{maxPrice}}</div>
-                        <div class="container col-sm-2">
-                            <button class="btn btn-default results-highlight text-center">REFINE</button>
+                        <div class="container col-sm-2 add-border text-center">
+                            <input type="text" name="departure" placeholder="${{minPrice}}">
+                        </div>
+                        <div class="container col-sm-2 add-border text-center">
+                            <input type="text" name="departure" placeholder="${{maxPrice}}">
+                        </div>
+                        <div id="refine-button" class="container col-sm-2">
+                            <button class="btn btn-default results-highlight text-center" style="transform:translate(0,-30%);">REFINE</button>
                         </div>
                     </div>
                 </div>           
