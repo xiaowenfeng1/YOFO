@@ -17,6 +17,7 @@ body {
 #logo {
     height:5em;
     margin-bottom: 1em;
+    margin-top: 6em;
 }
 
 input {
@@ -25,6 +26,7 @@ input {
 
     border: 0px;
     border-bottom: 1px solid;
+    border-radius: 0;
     outline-width: 0;
 }
 
